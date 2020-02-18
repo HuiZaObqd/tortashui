@@ -6,19 +6,24 @@ margin:0;
 padding:0;
 overflow-x:hidden;
 }
+body::-webkit-scrollbar {
+  width: 1vw;
+}
 .cql{ /* menu tabl*/
+position:sticky;
+top:0;
 background-color:#333;
 width:100vw;
 }
 .cql td{ /*menu otdelni*/
-padding-left:1vw;
-padding-right:1vw;
+
+padding-right:2vw;
 padding-top:1vw;
 padding-bottom:1vw;
 text-align:center;
 text-transform:uppercase;
 color:white;
-width:12.2vw;
+width:13.2vw;
 font-size:1.35vw;
 }
 .cql a{
@@ -27,25 +32,26 @@ color:white;
 display:block;
 }
 .men{ /*menu cqlo stikito*/
-width:100vw;
-position:sticky;
-top:0;
-
+position: sticky;
+display: block;
+top: 0;
+padding-right:20vw;
 }
 .hui{
-width:80vw;
-float:left;
-padding:1vw;
+width:100vw;
+padding-left:7.6vw;
+padding-right:7.6vw;
+text-align:center;
 }
 .logo{
 width:100vw;
+background-image: url("hui.png");
 background-color:white;
 }
 .pishonka{
- /*(display: block;
+ display: block;
  margin-left: auto;
  margin-right: auto;
-*/ 
-width:100vw; 
+width:25vw; 
 }
 
