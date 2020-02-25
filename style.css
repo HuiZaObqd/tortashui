@@ -19,7 +19,6 @@ padding-top:1vw;
 padding-bottom:1vw;
 text-align:center;
 text-transform:uppercase;
-color:white;
 width:13.2vw;
 font-size:1.35vw;
 }
@@ -52,31 +51,19 @@ background-color:white;
 width:25vw; 
 }
 @media only screen and (orientation: portrait) {
-td {
+.cql td {
 display:none;
-padding-right:2vw;
-padding-top:1vw;
-padding-bottom:1vw;
-text-align:center;
-text-transform:uppercase;
-color:white;
-width:100%;
-font-size:3vw;
-height:7.5vh;
-}
-.td a{
-font-size:6vw;
-}
-.tuk{
 padding-right:20vw;
 padding-left:20vw;
-padding-top:1vw;
+
 padding-bottom:1vw;
-text-align:center;
-text-transform:uppercase;
-color:white;
-width:90vw;
-font-size:3vw;
+width:100vw;
+height:13vh;
+}
+.cql a{
+font-size:6vw;
+}
+.cql td#tuk{
 display:block;
 }
 }
