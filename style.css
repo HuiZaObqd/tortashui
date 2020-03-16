@@ -6,6 +6,9 @@ margin:0;
 padding:0;
 overflow-x:hidden;
 }
+.derekciq{
+display:none	;
+}
 .cql{ /* menu tabl*/
 position:sticky;
 top:0;
@@ -13,16 +16,22 @@ background-color:#333;
 width:100vw;
 }
 .cql td{ /*menu otdelni*/
-
-padding-right:2vw;
-padding-top:1vw;
-padding-bottom:1vw;
 text-align:center;
 text-transform:uppercase;
 width:13.2vw;
 font-size:1.35vw;
+text-decoration:none;
+color:white;
+padding-bottom:1vw;
+padding-top:1vw;
+padding-right:0.5vw;
 }
 .cql a{
+text-decoration:none;
+color:white;
+display:block;
+}
+.cql p{
 text-decoration:none;
 color:white;
 display:block;
@@ -54,10 +63,15 @@ width:25vw;
 .cql td {
 display:none;
 width:100vw;
-
 }
 .cql a{
-font-size:10vw;
+font-size:6vw;
+}
+.cql td{
+font-size:6vw;
+padding-bottom:5vw;
+padding-top:5vw;
+
 }
 .cql td#tuk{
 display:block;
