@@ -9,6 +9,9 @@ overflow-x:hidden;
 .derekciq{
 display:none	;
 }
+.seks{
+display:none;
+}
 .cql{ /* menu tabl*/
 position:sticky;
 top:0;
@@ -63,6 +66,9 @@ width:25vw;
 .cql td {
 display:none;
 width:100vw;
+}
+.seks{
+display:block;
 }
 .cql a{
 font-size:6vw;
