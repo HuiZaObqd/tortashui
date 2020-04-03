@@ -53,42 +53,36 @@ text-align:center;
 }
 .logo{
 width:100vw;
-/*background-image: url("hui.png");*/
+background-image: url("hui.png");
 background-color:white;
 }
 .pishonka{
  display: block;
  margin-left: auto;
  margin-right: auto;
-width:30vw; 
+width:25vw; 
 }
 @media only screen and (orientation: portrait) {
-    .cql td {
-    display:none;
-    width:100vw;
-    }
-    .seks{
-    display:block;
-    }
-    .cql a{
-    font-size:4.5vw;
-    }
-    .cql td{
-    font-size:4.5vw;
-    padding-bottom:3vw;
-    padding-top:3vw;
+.cql td {
+display:none;
+width:100vw;
+}
+.seks{
+display:block;
+}
+.cql a{
+font-size:6vw;
+}
+.cql td{
+font-size:6vw;
+padding-bottom:5vw;
+padding-top:5vw;
 
-    }
-    .cql td#tuk{
-    display:block;
-    }
-    .seks td {
-    display:block;
-    }
-    .pishonka{
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-    width:55vw; 
-    }
+}
+.cql td#tuk{
+display:block;
+}
+.seks td {
+display:block;
+}
 }
