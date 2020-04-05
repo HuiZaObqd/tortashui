@@ -1,0 +1,49 @@
+p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-family: "Calibri", serif;
+    margin-bottom: 0vw;
+    font-size:1.5vw;
+}
+.zaglavie {
+    text-align: center;
+    font-size:3vw;
+}
+.nomerirani {
+    font-size:2vw;
+}
+.bullet {
+    font-size:1.5vw;
+}
+ol li { /*nomera*/
+    font-size: 2vw;
+}
+ul li { /*krugcheta*/
+    font-size: 2vw;
+}
+
+@media only screen and (orientation: portrait) {
+    p {
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        font-family: "Calibri", serif;
+        margin-bottom: 0vw;
+        font-size:3vw;
+    }
+    .zaglavie {
+        text-align: center;
+        font-size:5vw;
+    }
+    .nomerirani {
+        font-size:4vw;
+    }
+    .bullet {
+        font-size:2vw;
+    }
+    ol li { /*nomera*/
+        font-size: 2vw;
+    }
+    ul li { /*krugcheta*/
+        font-size: 2vw;
+    }
+}
