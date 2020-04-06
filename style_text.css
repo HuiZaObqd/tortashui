@@ -19,6 +19,13 @@ p {
     font-size:25px;
     color: rgb(256, 0, 0);
 }
+ul {
+  list-style-type: circle;
+}
+ul ul{
+  list-style-type: square;
+}
+
 ul li { /*krugcheta*/
     font-size: 30px;
 }
