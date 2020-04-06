@@ -15,8 +15,9 @@ p {
 .bullet {
     font-size:25px;
 }
-ol li { /*nomera*/
-    font-size: 30px;
+.red {
+    font-size:25px;
+    color: rgb(256, 0, 0);
 }
 ul li { /*krugcheta*/
     font-size: 30px;
